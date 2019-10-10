@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/catalog.css">
+</head>
+<body>
+
+        <!-- code: "askk123",
+        title: "This is the first product",
+        price: 123.45,
+        description: "This is the long description of a product so the client learn about it and buy it",
+        category: "Electronics",
+        rating: 4,
+        image: "images/phone.jpg" -->
+<div class="container">
+
+        <h1>Register New Item</h1>
+
+                <div class="form-group">
+                                <label for="exampleInputEmail1">Code</label>
+                                <input type="text" class="form-control" id="code" aria-describedby="code" placeholder="Enter Code">                
+                        </div>
+                
+                        <div class="form-group">
+                                <label for="exampleInputEmail1">Title</label>
+                                <input type="text" class="form-control" id="title" aria-describedby="title" placeholder="Enter Title">                
+                        </div>
+                
+                        <div class="form-group">
+                                <label for="exampleInputEmail1">Price</label>
+                                <input type="number"  class="form-control" id="price" aria-describedby="Price" placeholder="Enter Price">                
+                        </div>
+                
+                        <div class="form-group">
+                                <label for="exampleInputEmail1">Description</label>
+                                <input type="text" class="form-control" id="description" aria-describedby="description" placeholder="Enter Description">                
+                        </div>
+                
+                        <div class="form-group">
+                                <label for="exampleInputEmail1">Category</label>
+                                <input type="text" class="form-control" id="category" aria-describedby="category" placeholder="Enter Category">                
+                        </div>
+                
+                        <div class="form-group">
+                                <label for="exampleInputEmail1">Rating</label>
+                                <input type="number" min=0 max=5 class="form-control" id="rating" aria-describedby="rating" placeholder="Enter Rating">                
+                        </div>
+                
+                        <div class="form-group">
+                                <label for="exampleInputEmail1">Image</label>
+                                <input type="text"  class="form-control" id="image" aria-describedby="image" placeholder="Enter Image">                
+                        </div>
+
+                        <button id="btn_register" class="btn btn-primary">Register</button>
+
+</div>
+        
+    
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/catalog.js"></script>
+</body>
+</html>

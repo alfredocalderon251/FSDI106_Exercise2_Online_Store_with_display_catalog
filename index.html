@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galactic Store</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/catalog.css">
+    
+</head>
+<body>
+
+<div class="container">
+<h1>Catalog</h1>
+    <div class="row">
+        <div class="col">
+                <div class="search-container">
+                        <div class="input-group mb-3">
+                                <input type="text" class="form-control" id="txt_search" placeholder="Search Title" aria-label="Title" aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                  <button class="btn btn-outline-secondary" type="button" id="btn_search">Search</button>
+                                </div>
+                              </div>
+
+                    </div>
+
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col">
+                <div id="catalog" class="catalog-container">
+                    <!-- Inside here , generate the Items-->
+
+                    </div>
+
+        </div>
+    </div>
+
+    
+
+</div>
+    
+    
+    
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/catalog.js"></script>
+</body>
+</html>
